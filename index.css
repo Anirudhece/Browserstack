@@ -1,0 +1,94 @@
+.horizontal-align{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+/* .vertical-align{
+    display: flex;
+    align-items: center;
+} */
+#body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#body .container .top{
+    background-image:url(https://raw.githubusercontent.com/Anirudhece/Browserstack/main/images/bg1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.white-text{
+    color: white;
+}
+#body .container .top .nav-bar{
+    display: flow-root list-item;
+}
+#body .container .top .nav-bar .left-nav{
+    display: flex;
+    float: left;
+    font-size: 27px;
+    font-weight: bolder;
+    margin: 20px;
+}
+#body .container .top .nav-bar .right-nav{
+    float: right;
+    color: white;
+    margin: 20px;
+}
+#body .container .top .nav-bar .right-nav ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#body .container .top .nav-bar .right-nav ul a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    padding-right: 10px; 
+    padding-left: 10px;
+    font-weight: lighter;
+}
+#white-line{
+    margin: 0;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: grey;
+}
+#body .container .top .bellow-line{
+    height: 30rem;
+}
+#body .container .top .bellow-line .bellow-line-child{
+    display: grid;
+    align-items: center; 
+}
+#body .container .top .bellow-line .bellow-line-child .live .live-web{
+    color: white;
+    font-size: 40px;
+    font-weight: 525;
+}
+#red-line{
+    color:crimson;
+    width: 70px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: crimson;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#body .container .top .bellow-line .bellow-line-child .instant-para{
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#body .container .top .bellow-line .bellow-line-child .signup a{
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+    border-top: 10px solid crimson;
+    border-bottom: 10px solid crimson;
+    border-left: 30px solid crimson;
+    border-right: 30px solid crimson;
+}
