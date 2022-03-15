@@ -16,7 +16,6 @@
     background-image:url(https://raw.githubusercontent.com/Anirudhece/Browserstack/main/images/bg1.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
 }
 .white-text{
     color: white;
@@ -91,4 +90,37 @@
     border-bottom: 10px solid crimson;
     border-left: 30px solid crimson;
     border-right: 30px solid crimson;
+}
+
+#body .container .laal{
+    background-color: crimson;
+    color: white;.
+    height: 49%;
+}
+#body .container .laal .test-dev{
+    font-size: 30px;
+    font-weight: 425;
+}
+#white-choti-line{
+    color:white;
+    width: 70px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#body .container .laal .para{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#body .container .laal .get-started a{
+    color: rgba(0, 0, 0, 0.938);
+    background-color: white;
+    text-decoration: none;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 30px solid white;
+    border-right: 30px solid white ;
 }
