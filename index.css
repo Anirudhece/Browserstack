@@ -94,8 +94,8 @@
 
 #body .container .laal{
     background-color: crimson;
-    color: white;.
-    height: 49%;
+    color: white;
+    height: 22rem;
 }
 #body .container .laal .test-dev{
     font-size: 30px;
@@ -123,4 +123,57 @@
     border-bottom: 10px solid white;
     border-left: 30px solid white;
     border-right: 30px solid white ;
+}
+
+#body .container .white-feature{
+    /* height: 25rem; */
+    background-color: white;
+}
+#body .container .white-feature .feat{
+    font-size: 50px;
+    color: rgba(56, 55, 55, 0.931);
+    font-weight: 600; 
+    margin-top: 5%;
+}
+#body .container .white-feature #grey-line{
+    color: rgb(56, 55, 55);
+    width: 70px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(56, 55, 55);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#body .container .white-feature .bellow-grey{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#body .container .white-feature .bellow-grey .photo-arrange{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#body .container .white-feature .bellow-grey .photo-arrange .photo{
+    margin-bottom: 5%;
+
+}
+#body .container .white-feature .bellow-grey .photo-arrange .photo img{
+    width: 20%;
+}
+
+#body .container .white-feature .bellow-grey .photo-arrange .heading{
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+    font-weight: 450;
+    margin-bottom: 2%;
+}
+
+
+#body .container .white-feature .bellow-grey .photo-arrange .bellow-heading{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
 }
