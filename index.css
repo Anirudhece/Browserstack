@@ -1,6 +1,5 @@
 .horizontal-align{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 /* .vertical-align{
@@ -82,7 +81,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#body .container .top .bellow-line .bellow-line-child .signup a{
+.signup a{
     color: white;
     background-color: crimson;
     text-decoration: none;
@@ -91,7 +90,6 @@
     border-left: 30px solid crimson;
     border-right: 30px solid crimson;
 }
-
 #body .container .laal{
     background-color: crimson;
     color: white;
@@ -110,7 +108,6 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 #body .container .laal .para{
     padding-bottom: 20px;
     padding-top: 20px;
@@ -124,9 +121,7 @@
     border-left: 30px solid white;
     border-right: 30px solid white ;
 }
-
 #body .container .white-feature{
-    /* height: 25rem; */
     background-color: white;
 }
 #body .container .white-feature .feat{
@@ -156,24 +151,38 @@
 }
 #body .container .white-feature .bellow-grey .photo-arrange .photo{
     margin-bottom: 5%;
-
 }
 #body .container .white-feature .bellow-grey .photo-arrange .photo img{
     width: 20%;
 }
-
+#body .container .white-feature .bellow-grey .photo-arrange .photo #wrench{
+    width: 18%;
+}
 #body .container .white-feature .bellow-grey .photo-arrange .heading{
     font-size: 30px;
     color: rgb(12, 12, 12);
     font-weight: 450;
     margin-bottom: 2%;
+    text-align: center;
 }
-
-
 #body .container .white-feature .bellow-grey .photo-arrange .bellow-heading{
     text-align: center;
     color: rgb(51, 51, 51);
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 1.2rem;
+}
+#body .container .signup-in-black{
+    background-color: rgb(51, 51, 51);
+}
+#body .container .signup-in-black .signup-child{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+#body .container .signup-in-black .signup-child .free-trial{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 40px;
+    margin-bottom: 2rem;
+
 }
