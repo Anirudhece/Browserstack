@@ -96,7 +96,7 @@
 } 
 .signup{
     margin-top: 2rem;
-    margin-bottom: 05rem;    
+    margin-bottom: 5rem;    
 }
 .signup a{
     color: white;
@@ -112,7 +112,8 @@
 #body .container .laal{
     background-color: rgba(220, 50, 20, 0.856);
     color: white;
-    height: 22rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 #body .container .laal .test-dev{
     font-size: 30px;
@@ -127,9 +128,19 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+#body .container .laal .test-dev{
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-align: center;
+}
 #body .container .laal .para{
     padding-bottom: 20px;
     padding-top: 20px;
+}
+#body .container .laal .para .our-local{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 75%;
 }
 #body .container .laal .get-started a{
     color: rgba(0, 0, 0, 0.938);
@@ -198,6 +209,9 @@
 #body .container .signup-in-black .signup-child .free-trial{
     color: rgba(255, 255, 255, 0.849);
     font-size: 40px;
+    margin-bottom: 2rem;
+}
+#sgn-up{
     margin-bottom: 2rem;
 }
 #body .container .bottom {
