@@ -55,24 +55,29 @@
     border-right-style: solid;
     color: grey;
 }
-#body .container .top .bellow-line{
+/* #body .container .top .bellow-line{
     height: 30rem;
-}
+} */
 #body .container .top .bellow-line .bellow-line-child{
     display: grid;
     align-items: center; 
 }
-#body .container .top .bellow-line .bellow-line-child .live .live-web{
+#body .container .top .bellow-line .bellow-line-child .live{
+    margin-top: 9rem;
+}
+#body .container .top .bellow-line .bellow-line-child .live .live-web .live-web-child{
     color: white;
-    font-size: 40px;
     font-weight: 525;
+    text-align: center;
+    width: 50rem;
+    font-size: 3.7rem;
 }
 #red-line{
-    color:crimson;
+    color:rgba(220, 50, 20, 0.856);
     width: 70px;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-color: crimson;
+    background-color: rgba(220, 50, 20, 0.856);
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -80,18 +85,32 @@
     color: antiquewhite;
     padding-top: 20px;
     padding-bottom: 20px;
+    
+}
+#body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
+    text-align: center;
+    /* font-size: 1.4rem;
+    max-width: 70%; */
+    font-size: 1.6rem;
+    max-width: 63rem;
+} 
+.signup{
+    margin-top: 2rem;
+    margin-bottom: 05rem;    
 }
 .signup a{
     color: white;
-    background-color: crimson;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(220, 50, 20, 0.856);
     text-decoration: none;
-    border-top: 10px solid crimson;
-    border-bottom: 10px solid crimson;
-    border-left: 30px solid crimson;
-    border-right: 30px solid crimson;
+    border-top: 20px solid rgba(220, 50, 20, 0.856);
+    border-bottom: 20px solid rgba(220, 50, 20, 0.856);
+    border-left: 50px solid rgba(220, 50, 20, 0.856);
+    border-right: 50px solid rgba(220, 50, 20, 0.856);
 }
 #body .container .laal{
-    background-color: crimson;
+    background-color: rgba(220, 50, 20, 0.856);
     color: white;
     height: 22rem;
 }
@@ -120,9 +139,6 @@
     border-bottom: 10px solid white;
     border-left: 30px solid white;
     border-right: 30px solid white ;
-}
-#body .container .white-feature{
-    background-color: white;
 }
 #body .container .white-feature .feat{
     font-size: 50px;
@@ -178,11 +194,30 @@
 #body .container .signup-in-black .signup-child{
     padding-top: 3rem;
     padding-bottom: 3rem;
-
 }
 #body .container .signup-in-black .signup-child .free-trial{
     color: rgba(255, 255, 255, 0.849);
     font-size: 40px;
     margin-bottom: 2rem;
+}
+#body .container .bottom {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+#body .container .bottom .terms .terms-child{
+    display: flex;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.2rem;
+} 
 
+#body .container .bottom .brand-left{
+    display: flex;
+    float: right;
+    font-size: 1.3rem;
+    color: rgb(51, 51, 51);
+    font-weight: bolder;
+    margin-right: 1rem;
 }
