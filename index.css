@@ -56,9 +56,7 @@
     border-right-style: solid;
     color: grey;
 }
-/* #body .container .top .bellow-line{
-    height: 30rem;
-} */
+
 #body .container .top .bellow-line .bellow-line-child{
     display: grid;
     align-items: center; 
@@ -90,10 +88,8 @@
 }
 #body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
     text-align: center;
-    /* font-size: 1.4rem;
-    max-width: 70%; */
     font-size: 1.6rem;
-    max-width: 63rem;
+    max-width: 74%;
 } 
 .signup{
     margin-top: 2rem;
@@ -185,11 +181,11 @@
 #body .container .white-feature .bellow-grey .photo-arrange .photo img{
     width: 20%;
 }
-#body .container .white-feature .bellow-grey .photo-arrange .photo #wrench{
+/* #body .container .white-feature .bellow-grey .photo-arrange .photo #wrench{
     width: 18%;
-}
+} */
 #body .container .white-feature .bellow-grey .photo-arrange .heading{
-    font-size: 30px;
+    font-size: 1.9rem;
     color: rgb(12, 12, 12);
     font-weight: 450;
     margin-bottom: 2%;
@@ -222,9 +218,11 @@
     margin-top: 1rem;
     margin-bottom: 6rem;
 }
-#body .container .bottom .terms .terms-child{
+#body .container .bottom .terms{
     display: flex;
     float: left;
+}
+#body .container .bottom .terms .terms-child{
     margin-left: 1rem;
     margin-right: 1rem;
     color: rgb(51, 51, 51);
@@ -238,4 +236,51 @@
     color: rgb(51, 51, 51);
     font-weight: bolder;
     margin-right: 1rem;
+}
+
+@media(max-width: 900px){
+    #body .container .top .nav-bar .left-nav{
+        float: none;
+        justify-content: center;
+    }
+    #body .container .top .nav-bar .right-nav{
+        font-size: 2rem;     
+        float: none;
+        justify-content: center;
+    }
+    #body .container .top .nav-bar .right-nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    #body .container .top .bellow-line .bellow-line-child .live .live-web .live-web-child{
+        font-size: 3rem;
+    }
+    #body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
+        font-size: 1.3rem;
+        max-width: 80%;
+    }
+
+    #body .container .bottom .terms{
+        float: none;
+        justify-content: center;
+    }
+    #body .container .white-feature .bellow-grey{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #body .container .white-feature .bellow-grey .photo-arrange .heading{
+        font-size: 1.5rem;
+    }
+    #body .container .white-feature .bellow-grey .photo-arrange .bellow-heading{
+        font-size: 1rem;
+    }
+    #body .container .bottom .brand-left{
+        float: none;
+        justify-content: center;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+    #body .container .bottom{
+        margin-bottom: 3rem;
+    }
 }
