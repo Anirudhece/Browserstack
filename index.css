@@ -18,6 +18,7 @@
 }
 .white-text{
     color: white;
+    display: block;
 }
 #body .container .top .nav-bar{
     display: flow-root list-item;
@@ -99,6 +100,7 @@
     margin-bottom: 5rem;    
 }
 .signup a{
+    border-radius: 30px;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -143,11 +145,12 @@
     width: 75%;
 }
 #body .container .laal .get-started a{
+    border-radius: 30px;
     color: rgba(0, 0, 0, 0.938);
     background-color: white;
     text-decoration: none;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
     border-left: 30px solid white;
     border-right: 30px solid white ;
 }
