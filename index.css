@@ -72,10 +72,11 @@
     font-size: 3.7rem;
 }
 #red-line{
+    border: 0px;
     color:rgba(220, 50, 20, 0.856);
     width: 70px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: rgba(220, 50, 20, 0.856);
     margin-bottom: 20px;
     margin-top: 20px;
@@ -84,12 +85,11 @@
     color: antiquewhite;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 #body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
     text-align: center;
     font-size: 1.6rem;
-    max-width: 74%;
+    width: 74%;
 } 
 .signup{
     margin-top: 2rem;
@@ -257,7 +257,7 @@
     }
     #body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
         font-size: 1.3rem;
-        max-width: 80%;
+        width: 85%;
     }
 
     #body .container .bottom .terms{
@@ -284,3 +284,41 @@
         margin-bottom: 3rem;
     }
 }
+@media(max-width: 760px){
+    #body .container .top .bellow-line .bellow-line-child .live{
+        margin-top: 5rem;
+    }
+    #body .container .top .bellow-line .bellow-line-child .live .live-web .live-web-child{
+        font-size: 2rem;
+        width: 95%;
+    }
+    #body .container .top .bellow-line .bellow-line-child .instant-para .instant .instant-child{
+        font-size: 1.1rem; 
+        width: 90%;
+    }
+}
+@media(max-width: 600px){
+    #body .container .top .bellow-line .bellow-line-child .live {
+        margin-top: 2rem;
+    }
+    #body .container .top .bellow-line .bellow-line-child .instant-para{
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .signup{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #body .container .laal{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #body .container .laal .test-dev{
+        font-size: 2.2rem;
+    }
+    #body .container .laal .para .our-local{
+        font-size: 1.1rem;
+        width: 95%;
+    }
+}
+
