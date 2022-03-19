@@ -118,10 +118,11 @@
     font-weight: 425;
 }
 #white-choti-line{
+    border: 0px;
     color:white;
     width: 70px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: white;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -157,10 +158,12 @@
     margin-top: 5%;
 }
 #body .container .white-feature #grey-line{
+    border: 0px;
+
     color: rgb(56, 55, 55);
     width: 70px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: rgb(56, 55, 55);
     margin-bottom: 20px;
     margin-top: 20px;
