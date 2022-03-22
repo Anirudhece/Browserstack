@@ -324,4 +324,9 @@
         width: 95%;
     }
 }
-
+.rotate{
+    transition: all 2s;
+}
+.rotate:hover{
+    transform: rotate(360deg);
+}
