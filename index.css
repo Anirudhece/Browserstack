@@ -345,7 +345,7 @@
 }
 
 /* .rotate{
-    transition: all 2s ;
+    transition: all 2s linear infinite ;
 }
 .rotate:hover{
     transform: rotate(360deg) ;
