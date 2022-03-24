@@ -329,10 +329,10 @@
         font-size: 15px;
     }
     #body .container .white-feature .bellow-grey .photo-arrange .heading {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
     #body .container .white-feature .bellow-grey .photo-arrange .bellow-heading {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     #body .container .signup-in-black .signup-child .free-trial {
         font-size: 35px;
@@ -347,7 +347,6 @@
         text-align: center;
     }
 }
-
 .rotate{
     transition: all 2s;
 }
