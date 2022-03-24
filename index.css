@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
 }
-/* .vertical-align{
-    display: flex;
-    align-items: center;
-} */
 #body{
     overflow-x: hidden;
     margin: 0;
@@ -347,9 +343,23 @@
         text-align: center;
     }
 }
-.rotate{
-    transition: all 2s;
+
+/* .rotate{
+    transition: all 2s ;
 }
 .rotate:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) ;
+    animation: infinite;
+} */
+
+.rotate{
+    animation: rotation 2s linear infinite;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
